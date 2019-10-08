@@ -1,0 +1,12 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "json", "autoFix": true },
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ]
+}
